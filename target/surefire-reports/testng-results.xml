@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="10" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-30T19:36:04 IST" name="Suite" finished-at="2024-10-30T19:37:17 IST" duration-ms="72404">
+    <groups>
+    </groups>
+    <test started-at="2024-10-30T19:36:04 IST" name="Test" finished-at="2024-10-30T19:37:17 IST" duration-ms="72404">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:33 IST" name="setup" finished-at="2024-10-30T19:36:37 IST" duration-ms="3870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.util.HashMap)[pri:1, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:37 IST" name="verifyLoginWithValidCredentials" data-provider="loginDataSupplier" finished-at="2024-10-30T19:36:38 IST" duration-ms="1089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, ExpectedResult=Success, Username=amotooribatch1@gmail.com, Password=abcde}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:38 IST" name="teardown" finished-at="2024-10-30T19:36:38 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:38 IST" name="setup" finished-at="2024-10-30T19:36:42 IST" duration-ms="3946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.util.HashMap)[pri:1, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:42 IST" name="verifyLoginWithValidCredentials" data-provider="loginDataSupplier" finished-at="2024-10-30T19:36:43 IST" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, ExpectedResult=Success, Username=amotooribatch11@gmail.com, Password=fghij}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:43 IST" name="teardown" finished-at="2024-10-30T19:36:43 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:43 IST" name="setup" finished-at="2024-10-30T19:36:47 IST" duration-ms="3818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.util.HashMap)[pri:1, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:47 IST" name="verifyLoginWithValidCredentials" data-provider="loginDataSupplier" finished-at="2024-10-30T19:36:48 IST" duration-ms="1099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, ExpectedResult=Success, Username=amotooribatch111@gmail.com, Password=klmno}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:48 IST" name="teardown" finished-at="2024-10-30T19:36:49 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:49 IST" name="setup" finished-at="2024-10-30T19:36:53 IST" duration-ms="4346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:53 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-10-30T19:36:54 IST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:54 IST" name="teardown" finished-at="2024-10-30T19:36:54 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:54 IST" name="setup" finished-at="2024-10-30T19:36:58 IST" duration-ms="3847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:58 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-10-30T19:36:59 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:59 IST" name="teardown" finished-at="2024-10-30T19:36:59 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:36:59 IST" name="setup" finished-at="2024-10-30T19:37:03 IST" duration-ms="3871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:37:03 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-10-30T19:37:04 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:37:04 IST" name="teardown" finished-at="2024-10-30T19:37:04 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:37:04 IST" name="setup" finished-at="2024-10-30T19:37:08 IST" duration-ms="3714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutCredentials()[pri:5, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:37:08 IST" name="verifyLoginWithoutCredentials" finished-at="2024-10-30T19:37:08 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@478190fc]" started-at="2024-10-30T19:37:08 IST" name="teardown" finished-at="2024-10-30T19:37:09 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:04 IST" name="setup" finished-at="2024-10-30T19:36:18 IST" duration-ms="13311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAccountUsingMandatoryFields()[pri:1, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:18 IST" name="verifyRegisterAccountUsingMandatoryFields" finished-at="2024-10-30T19:36:19 IST" duration-ms="1810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountUsingMandatoryFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:19 IST" name="teardown" finished-at="2024-10-30T19:36:20 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:20 IST" name="setup" finished-at="2024-10-30T19:36:24 IST" duration-ms="4226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAccountUsingAllFields()[pri:2, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:24 IST" name="verifyRegisterAccountUsingAllFields" finished-at="2024-10-30T19:36:26 IST" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountUsingAllFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:26 IST" name="teardown" finished-at="2024-10-30T19:36:26 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:26 IST" name="setup" finished-at="2024-10-30T19:36:30 IST" duration-ms="4029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAccountWithoutAnyDetails()[pri:3, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:30 IST" name="verifyRegisterAccountWithoutAnyDetails" finished-at="2024-10-30T19:36:31 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithoutAnyDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.RegisterTest@14dd9eb7]" started-at="2024-10-30T19:36:31 IST" name="teardown" finished-at="2024-10-30T19:36:31 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.RegisterTest -->
+      <class name="tests.LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LogoutTest@7e07db1f]" started-at="2024-10-30T19:37:13 IST" name="setup" finished-at="2024-10-30T19:37:16 IST" duration-ms="3322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogoutFromMyAccountMenu()[pri:1, instance:tests.LogoutTest@7e07db1f]" started-at="2024-10-30T19:37:16 IST" name="verifyLogoutFromMyAccountMenu" finished-at="2024-10-30T19:37:16 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[The value of i is 1 and hence this test got skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: The value of i is 1 and hence this test got skipped
+at tests.LogoutTest.verifyLogoutFromMyAccountMenu(LogoutTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFromMyAccountMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LogoutTest@7e07db1f]" started-at="2024-10-30T19:37:16 IST" name="teardown" finished-at="2024-10-30T19:37:17 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LogoutTest -->
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@35cabb2a]" started-at="2024-10-30T19:37:09 IST" name="setup" finished-at="2024-10-30T19:37:12 IST" duration-ms="3364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchingForExisitingProduct()[pri:1, instance:tests.SearchTest@35cabb2a]" started-at="2024-10-30T19:37:12 IST" name="verifySearchingForExisitingProduct" finished-at="2024-10-30T19:37:13 IST" duration-ms="695" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at tests.SearchTest.verifySearchingForExisitingProduct(SearchTest.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchingForExisitingProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchTest@35cabb2a]" started-at="2024-10-30T19:37:13 IST" name="teardown" finished-at="2024-10-30T19:37:13 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="verifySearchingWithoutAnyProduct()[pri:3, instance:tests.SearchTest@35cabb2a]" started-at="2024-10-30T19:37:13 IST" name="verifySearchingWithoutAnyProduct" finished-at="2024-10-30T19:37:13 IST" depends-on-methods="tests.SearchTest.verifySearchingForExisitingProduct" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.SearchTest.verifySearchingWithoutAnyProduct() on instance tests.SearchTest@35cabb2a depends on not successfully finished methods 
+[tests.SearchTest.verifySearchingForExisitingProduct() on instance tests.SearchTest@35cabb2a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.SearchTest.verifySearchingWithoutAnyProduct() on instance tests.SearchTest@35cabb2a depends on not successfully finished methods 
+[tests.SearchTest.verifySearchingForExisitingProduct() on instance tests.SearchTest@35cabb2a]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchingWithoutAnyProduct -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
